@@ -1,0 +1,40 @@
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #FFC1CC; /* Světle růžová jako pozadí */
+}
+
+.container {
+text-align: center;
+background-color: #FFF9E6; /* Velmi světle žlutá, podobná máslu */
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+padding: 5px;
+margin: 10px;
+font-size: 16px;
+background-color: #FFF9E6; /* Světle žlutá uvnitř pole */
+border: 1px solid #FFD700; /* Zlatavý okraj */
+border-radius: 5px;
+}
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #FFD700; /* Světle žlutá, máslová barva */
+color: #333; /* Tmavý text pro kontrast */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #FFEC99; /* Ještě světlejší žlutá při najetí myší */
+}
